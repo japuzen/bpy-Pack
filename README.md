@@ -1,6 +1,6 @@
 # 3D Pack - Blender Addon
 
-##Usage
+## Usage
 1. Install and enable the add-on.
 2. Locate the ***3D Pack Panel*** in the Sidebar.
   -Press 'N' while your mouse is in the 3D Viewport to open/close the Sidebar
