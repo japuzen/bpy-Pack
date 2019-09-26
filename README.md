@@ -19,7 +19,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;The script uses the bounding box of an object when orienting and placing it, rather than the object’s geometry. This means that empty spaces within an object’s bounding box won’t be utilized, so objects may not be packed as tightly as possible. On the upside, using bounding boxes allows the script to pack objects fairly quickly. Also, high poly count objects and low poly count objects are packed with around the same speed.
 
-&nbsp;&nbsp;&nbsp;&nbsp;The objects shown in the images come from the following thingiverse post: https://www.thingiverse.com/thing:239105
+&nbsp;&nbsp;&nbsp;&nbsp;The objects shown in the images come from the following Thingiverse post: https://www.thingiverse.com/thing:239105
 
 ### Minimizing Bounding Boxes
 &nbsp;&nbsp;&nbsp;&nbsp;Since the 3D Pack add-on uses the bounding box of objects, it would be a good idea to minimize the bounding box of objects before packing. This is an optional step, but it will provide the best packing results. Changing an object’s bounding box can be done manually in Blender by rotating the object and then applying its rotation. You can display an object’s bounding box by selecting an object, going to the *Properties* panel and checking *Object > Viewport Display > Bounds*.
