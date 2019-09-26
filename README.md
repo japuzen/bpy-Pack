@@ -1,5 +1,6 @@
 # 3D Pack - Blender Addon
-
+![Image of Full Pack]
+(images/Addon Doc - Full Pack.png)
 ## Usage
 1. Install and enable the add-on.
 2. Locate the ***3D Pack Panel*** in the Sidebar.
