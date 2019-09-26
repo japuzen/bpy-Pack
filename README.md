@@ -1,9 +1,11 @@
 # 3D Pack - Blender Addon
 ![Image of Full Pack](images/Addon%20Doc%20-%20Full%20Pack.png)
 ## Usage
+<img align="left" src="images/Addon%20Doc%20-%20Pack%20Panel%20Image.png">
+
 1. Install and enable the add-on.
 2. Locate the ***3D Pack Panel*** in the Sidebar.
-    - Press 'N' while your mouse is in the 3D Viewport to open/close the Sidebar
+    - Press 'N' while your mouse is in the 3D Viewport to open/close the Sidebar.
 3. Click ***Generate Pack Area*** to generate the Pack Area Outline in the 3D Viewport.
 4. Set the ***Pack Area Dimensions***.
 5. Set the ***Gap*** between objects.
@@ -13,6 +15,7 @@
 8. Click ***Pack Selected Objects***.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Fully packed areas will be placed next to the Pack Area Outline in the +X direction. Objects that do not fit in the Pack Area Outline will stay in their original positions.
+![Image of Packing Results](images/Addon%20Doc%20-%20Result%20Image.png)
 
 ## Info
 &nbsp;&nbsp;&nbsp;&nbsp;The 3D Pack add-on provides tools to pack objects into a defined 3-dimensional area in Blender. Users can set the size of the area and the minimum gap between packed objects. Users can also specify whether their objects can be rotated to try to achieve a tighter pack.
