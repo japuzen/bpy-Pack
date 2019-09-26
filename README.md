@@ -12,7 +12,7 @@
 7. Select all the objects to pack.
 8. Click ***Pack Selected Objects***.
 
-  Fully packed areas will be placed next to the Pack Area Outline in the +X direction. Objects that do not fit in the Pack Area Outline will stay in their original positions.
+&nbsp;&nbsp;&nbsp;&nbsp;Fully packed areas will be placed next to the Pack Area Outline in the +X direction. Objects that do not fit in the Pack Area Outline will stay in their original positions.
 
 ## Info
   The 3D Pack add-on provides tools to pack objects into a defined 3-dimensional area in Blender. Users can set the size of the area and the minimum gap between packed objects. Users can also specify whether their objects can be rotated to try to achieve a tighter pack.
