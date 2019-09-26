@@ -1,5 +1,5 @@
 # 3D Pack - Blender Addon
-![Image of Full Pack](japuzen.github.com/bpy-pack/images/Addon%20Doc%20-%20Full%20Pack.png)
+![Image of Full Pack](images/Addon%20Doc%20-%20Full%20Pack.png)
 ## Usage
 1. Install and enable the add-on.
 2. Locate the ***3D Pack Panel*** in the Sidebar.
