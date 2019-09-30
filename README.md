@@ -18,7 +18,7 @@
 
 
 ![Image of Packing Results](images/Addon%20Doc%20-%20Result%20Image.png)
-
+>Objects that were too large to pack on the left, Pack Area Outline in the center, packed objects on the right
 
 ## Info
 &nbsp;&nbsp;&nbsp;&nbsp;The 3D Pack add-on provides tools to pack objects into a defined 3-dimensional area in Blender. Users can set the size of the area and the minimum gap between packed objects. Users can also specify whether their objects can be rotated to try to achieve a tighter pack.
@@ -29,6 +29,10 @@
 
 ### Minimizing Bounding Boxes
 &nbsp;&nbsp;&nbsp;&nbsp;Since the 3D Pack add-on uses the bounding box of objects, it would be a good idea to minimize the bounding box of objects before packing. This is an optional step, but it will provide the best packing results. Changing an object’s bounding box can be done manually in Blender by rotating the object and then applying its rotation. You can display an object’s bounding box by selecting an object, going to the *Properties* panel and checking *Object > Viewport Display > Bounds*.
+
+<img src="images/Addon%20Doc%20-%20Bound%20Box%20Difference%20Image.png" height="75%" width="75%" align="center"></img>
+>The same object with different bounding boxes, with its minimal bounding box on the left.
+<br><br>
     
 &nbsp;&nbsp;&nbsp;&nbsp;To automatically minimize an object’s bounding box, you can use the following Blender add-on: {Add link to bounding box add-on}
     
