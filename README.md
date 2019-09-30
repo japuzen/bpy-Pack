@@ -43,3 +43,5 @@
 &nbsp;&nbsp;&nbsp;&nbsp;You can hide the Pack Area Outline in the 3D Viewport by toggling the ***Show Pack Area parameter*** in the 3D Pack Panel. You can also hide the Pack Area Outline by toggling its visibility in the Outliner, but changing its dimensions will make it visible again. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Upon disabling the add-on, the Pack Area Outline should be automatically deleted.  If it was not deleted, you can manually delete it by right-clicking on the Pack Area Outline object in the Outliner.
+
+Test [link](PackingAddon.py)
