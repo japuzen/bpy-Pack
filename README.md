@@ -5,7 +5,7 @@
 1. Right click [this link](https://raw.githubusercontent.com/japuzen/bpy-pack/master/PackingAddon.py) and *Save Link As* to download the Python file.
 2. In Blender, go to *Edit > Preferences*.
 
-<img align="right" src="images/Addon%20Doc%20-%20Edit>Preferences.png">
+![Image of Full Pack](images/Addon%20Doc%20-%20Edit>Preferences.png)
 
 3. In *Addons* click *Install* and find the *PackingAddon.py* file.
 
