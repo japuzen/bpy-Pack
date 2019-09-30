@@ -43,7 +43,7 @@
 ### Minimizing Bounding Box Volume
 &nbsp;&nbsp;&nbsp;&nbsp;Since the 3D Pack add-on uses the bounding box of objects, it would be a good idea to minimize the volume of objects' bounding boxes before packing. This is an optional step, but it will provide the best packing results. Changing an object’s bounding box can be done manually in Blender by rotating the object and then applying its rotation. You can display an object’s bounding box by selecting an object, going to the *Properties* panel and checking *Object > Viewport Display > Bounds*.
 
-&nbsp;&nbsp;&nbsp;&nbsp;**To automatically minimize an object’s bounding box volume, you can use this [Blender add-on]()**
+&nbsp;&nbsp;&nbsp;&nbsp;**To automatically minimize an object’s bounding box volume, you can use this [Blender add-on](https://github.com/japuzen/bpy-minboundbox)**
 
 <img src="images/Addon%20Doc%20-%20Bound%20Box%20Difference%20Image.png" height="75%" width="75%" align="center"></img>
 >The same object with different bounding boxes, with its minimum volume bounding box on the right.
