@@ -44,4 +44,4 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Upon disabling the add-on, the Pack Area Outline should be automatically deleted.  If it was not deleted, you can manually delete it by right-clicking on the Pack Area Outline object in the Outliner.
 
-Test [link](raw.githubusercontent.com/japuzen/bpy-pack/master/PackingAddon.py)
+Test [link](https://raw.githubusercontent.com/japuzen/bpy-pack/master/PackingAddon.py)
