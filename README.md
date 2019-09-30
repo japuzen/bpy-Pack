@@ -2,7 +2,7 @@
 ![Image of Full Pack](images/Addon%20Doc%20-%20Full%20Pack.png)
 
 ## Installation
-1. Right click [this link](https://raw.githubusercontent.com/japuzen/bpy-pack/master/PackingAddon.py) and click *Save Link As* to download the Python file.
+1. Right click [this link](https://https://raw.githubusercontent.com/japuzen/bpy-pack/master/PackingAddon.py) and click *Save Link As* to download the Python file.
 2. In Blender, go to *Edit > Preferences*.
 
 ![Image of Full Pack](images/Addon%20Doc%20-%20Edit>Preferences.png)
