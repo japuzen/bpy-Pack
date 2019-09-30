@@ -13,6 +13,7 @@
     - Enabling it will allow the rotation of objects to achieve a tighter pack. Disabling it will preserve the objects’ original orientation.
 7. Select all the objects to pack.
 8. Click ***Pack Selected Objects***.
+<br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;Fully packed areas will be placed next to the Pack Area Outline in the +X direction. Objects that do not fit in the Pack Area Outline will stay in their original positions.
 
@@ -25,7 +26,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;The script uses the bounding box of an object when orienting and placing it, rather than the object’s geometry. This means that empty spaces within an object’s bounding box won’t be utilized, so objects may not be packed as tightly as possible. On the upside, using bounding boxes allows the script to pack objects fairly quickly. Also, high poly count objects and low poly count objects are packed with around the same speed.
 
-&nbsp;&nbsp;&nbsp;&nbsp;The objects shown in the images come from the following Thingiverse post: https://www.thingiverse.com/thing:239105
+&nbsp;&nbsp;&nbsp;&nbsp;The objects shown in the images come from this [Thingiverse post](https://www.thingiverse.com/thing:239105)
 
 ### Minimizing Bounding Boxes
 &nbsp;&nbsp;&nbsp;&nbsp;Since the 3D Pack add-on uses the bounding box of objects, it would be a good idea to minimize the bounding box of objects before packing. This is an optional step, but it will provide the best packing results. Changing an object’s bounding box can be done manually in Blender by rotating the object and then applying its rotation. You can display an object’s bounding box by selecting an object, going to the *Properties* panel and checking *Object > Viewport Display > Bounds*.
@@ -34,7 +35,7 @@
 >The same object with different bounding boxes, with its minimal bounding box on the left.
 <br><br>
     
-&nbsp;&nbsp;&nbsp;&nbsp;To automatically minimize an object’s bounding box, you can use the following Blender add-on: {Add link to bounding box add-on}
+&nbsp;&nbsp;&nbsp;&nbsp;**To automatically minimize an object’s bounding box, you can use this [Blender add-on]()**
     
 ### Setting Up Units
 &nbsp;&nbsp;&nbsp;&nbsp;The units for the *Pack Area Dimensions* and *Gap* correspond to the current Scene’s units. You can set this in the *Properties* panel under *Scene > Units*.
