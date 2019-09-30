@@ -25,7 +25,7 @@
     - Enabling it will allow the rotation of objects to achieve a tighter pack. Disabling it will preserve the objects’ original orientation.
 6. Select all the objects to pack.
 7. Click ***Pack Selected Objects***.
-<br><br>
+<br><br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;Fully packed areas will be placed next to the Pack Area Outline in the +X direction. Objects that do not fit in the Pack Area Outline will stay in their original positions.
 
