@@ -1,18 +1,24 @@
 # 3D Pack - Blender Addon
 ![Image of Full Pack](images/Addon%20Doc%20-%20Full%20Pack.png)
+
+## Installation
+1. Right click [this link](https://raw.githubusercontent.com/japuzen/bpy-pack/master/PackingAddon.py) and *Save Link As* to download the Python file.
+2. In Blender, go to *Edit > Preferences > Addons*.
+3. Click *Install* and find the *PackingAddon.py* file.
+4. Click the checkbox to the left of the addon to enable it.
+
 ## Usage
 <img align="right" src="images/Addon%20Doc%20-%20Pack%20Panel%20Image.png">
 
-1. Install and enable the add-on.
-2. Locate the ***3D Pack Panel*** in the Sidebar.
+1. Locate the ***3D Pack Panel*** in the Sidebar.
     - Press 'N' while your mouse is in the 3D Viewport to open/close the Sidebar.
-3. Click ***Generate Pack Area*** to generate the Pack Area Outline in the 3D Viewport.
-4. Set the ***Pack Area Dimensions***.
-5. Set the ***Gap*** between objects.
-6. Set the ***Allow Object Rotation*** parameter.
+2. Click ***Generate Pack Area*** to generate the Pack Area Outline in the 3D Viewport.
+3. Set the ***Pack Area Dimensions***.
+4. Set the ***Gap*** between objects.
+5. Set the ***Allow Object Rotation*** parameter.
     - Enabling it will allow the rotation of objects to achieve a tighter pack. Disabling it will preserve the objects’ original orientation.
-7. Select all the objects to pack.
-8. Click ***Pack Selected Objects***.
+6. Select all the objects to pack.
+7. Click ***Pack Selected Objects***.
 <br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;Fully packed areas will be placed next to the Pack Area Outline in the +X direction. Objects that do not fit in the Pack Area Outline will stay in their original positions.
@@ -43,5 +49,3 @@
 &nbsp;&nbsp;&nbsp;&nbsp;You can hide the Pack Area Outline in the 3D Viewport by toggling the ***Show Pack Area parameter*** in the 3D Pack Panel. You can also hide the Pack Area Outline by toggling its visibility in the Outliner, but changing its dimensions will make it visible again. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;Upon disabling the add-on, the Pack Area Outline should be automatically deleted.  If it was not deleted, you can manually delete it by right-clicking on the Pack Area Outline object in the Outliner.
-
-Test [link](https://raw.githubusercontent.com/japuzen/bpy-pack/master/PackingAddon.py)
