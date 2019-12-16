@@ -490,6 +490,10 @@ class PackObjects(bpy.types.Operator):
         #Orient objects if user allows rotation
         if pack_tool.allowRotation:
             orientObjects(unplacedListWrapper.list)
+        else:
+            #Applies rotation for objects
+            for obj in unplacedListWrapper.list:
+                bpy.ops.object.transform_apply(location=False, rotation=True, scale=False)
             
         #Sort by Y largest to smallest
         unplacedListWrapper.list.sort(reverse=True, key=retDimY)
